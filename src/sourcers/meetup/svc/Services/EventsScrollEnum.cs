@@ -19,6 +19,10 @@ namespace Tehk.Sourcers.Meetup.Svc.Services
 
     public static class EventsScrollEnumExtensions
     {
+        /// <summary>
+        /// Turn the value into a descriptive string.
+        /// </summary>
+        /// <returns>String value as defined in the API.</returns>
         public static string ToDescriptionString(this EventsScrollEnum value)
         {
             DescriptionAttribute[] attributes = (DescriptionAttribute[])value
