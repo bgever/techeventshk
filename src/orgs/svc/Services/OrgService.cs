@@ -12,10 +12,6 @@ namespace Tehk.Orgs.Svc.Services
 {
     public class OrgService : IOrgService
     {
-        public const string DbConnectionStringConfigId = "DB.ConnectionString";
-        public const string DbDatabaseConfigId = "DB.Database";
-        public const string OrgsCollection = "orgs";
-
         public OrgService(IMongoCollection<OrgModel> collection, ILogger<OrgService> logger)
         {
             Collection = collection;
