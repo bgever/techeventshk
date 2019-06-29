@@ -21,8 +21,8 @@ namespace Tehk.Sourcers.Meetup.Svc.Services
             string meetup = "HK-Microservices-Serverless-APIs-powered-by-KintoHub";
 
             return (await Task.WhenAll(
-                MeetupApi.GetEvents(meetup, EventsScrollEnum.NextUpcoming),
-                MeetupApi.GetEvents(meetup, EventsScrollEnum.RecentPast))
+                MeetupApi.GetEvents(meetup, EventsScroll.NextUpcoming),
+                MeetupApi.GetEvents(meetup, EventsScroll.RecentPast))
             ).SelectMany(x => x);
         }
     }

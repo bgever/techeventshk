@@ -22,7 +22,7 @@ namespace Tehk.Sourcers.Meetup.Svc.Services
         private ILogger<MeetupApiClient> Logger;
 
         public async Task<IEnumerable<MeetupEventModel>> GetEvents(
-            string urlName, EventsScrollEnum scroll = EventsScrollEnum.Undefined)
+            string urlName, EventsScroll scroll = EventsScroll.Undefined)
         {
             IEnumerable<MeetupEventModel> Default() => new List<MeetupEventModel>(0);
 
