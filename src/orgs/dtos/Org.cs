@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Tehk.Orgs.RestApi
+namespace Tehk.Orgs.Dtos
 {
     /// <summary>
     /// Event organizations.

@@ -1,6 +1,6 @@
 using AutoMapper;
 using Tehk.Orgs.Models;
-using Tehk.Orgs.RestApi;
+using Tehk.Orgs.Dtos;
 
 namespace Tehk.Orgs.Svc.Mappings
 {

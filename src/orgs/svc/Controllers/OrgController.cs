@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Tehk.Orgs.Models;
-using Tehk.Orgs.RestApi;
+using Tehk.Orgs.Dtos;
 using Tehk.Orgs.Svc.Services;
 
 namespace Tehk.Orgs.Svc.Controllers

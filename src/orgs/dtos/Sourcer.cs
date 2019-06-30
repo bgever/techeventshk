@@ -1,4 +1,4 @@
-namespace Tehk.Orgs.RestApi
+namespace Tehk.Orgs.Dtos
 {
     /// <summary>
     /// The method used for sourcing new events.
